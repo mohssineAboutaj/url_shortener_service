@@ -1,22 +1,39 @@
 # URL Shortener Service
 
-> API to create short urls using Node, Express and MongoDB
+## About
+
+A service to create short urls using Nodejs, Express and MongoDB
+
+## Install Dependencies
+
+```sh
+yarn install
+```
 
 ## Quick Start
 
 ```bash
 # Install dependencies
-npm install
+yarn install
 
 # Edit the default.json file with your mongoURI and baseUrl
 # Use production.json in production env
 
 # Run
-npm start
+yarn start
+
+# Dev
+yarn dev
 ```
 
-## Endpoint to create short url
+## Usage
+
+### Endpoint to create short url
 
 ### POST api/url/shorten
 
 { "longUrl": "xxxx" }
+
+## License
+
+[_MIT_](./LICENSE)
