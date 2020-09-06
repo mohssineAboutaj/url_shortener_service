@@ -1,8 +1,9 @@
 ## The project Todo
 
 - Client (SPA with Vue)
-  + Heading & short description
-  + shortener form
+  + Heading & short description (done)
+  + shortener form (done)
+  + get shorted url or errors (done)
 - User permisions
   + Register
   + Login
